@@ -7,7 +7,7 @@ cookie = """
 
 dl = Downloader(cookie=cookie)
 
-with open("urls.txt", "r") as file:
+with open("urls1.TXT", "r") as file:
     for lineNum, line in enumerate(file):
         if line.strip() == "":
             continue
